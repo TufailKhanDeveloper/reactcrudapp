@@ -28,7 +28,7 @@ function Read() {
 
     useEffect(() => {
         getData();
-    }, []);
+    });
 
 
     const handleDelete = (id) => {
